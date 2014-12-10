@@ -1,0 +1,1326 @@
+{
+  "name": "ip-172-31-8-127.eu-west-1.compute.internal",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "default": {
+    "myapache": {
+      "greeting": "Chefs!",
+      "sites": {
+        "chess": {
+          "port": 80
+        },
+        "draughts": {
+          "port": 81
+        }
+      }
+    }
+  },
+  "automatic": {
+    "languages": {
+      "ruby": {
+        "platform": "x86_64-linux",
+        "version": "2.1.4",
+        "release_date": "2014-10-27",
+        "target": "x86_64-unknown-linux-gnu",
+        "target_cpu": "x86_64",
+        "target_vendor": "unknown",
+        "target_os": "linux",
+        "host": "x86_64-unknown-linux-gnu",
+        "host_cpu": "x86_64",
+        "host_os": "linux-gnu",
+        "host_vendor": "unknown",
+        "bin_dir": "/opt/chefdk/embedded/bin",
+        "ruby_bin": "/opt/chefdk/embedded/bin/ruby",
+        "gems_dir": "/opt/chefdk/embedded/lib/ruby/gems/2.1.0",
+        "gem_bin": "/opt/chefdk/embedded/bin/gem"
+      },
+      "lua": {
+        "version": "5.1.4"
+      },
+      "c": {
+        "glibc": {
+          "version": "2.12",
+          "description": "GNU C Library stable release version 2.12, by Roland McGrath et al."
+        }
+      },
+      "python": {
+        "version": "2.6.6",
+        "builddate": "Nov 22 2013, 12:16:22"
+      },
+      "perl": {
+        "version": "5.10.1",
+        "archname": "x86_64-linux-thread-multi"
+      }
+    },
+    "dmi": {
+
+    },
+    "kernel": {
+      "name": "Linux",
+      "release": "2.6.32-431.el6.x86_64",
+      "version": "#1 SMP Fri Nov 22 03:15:09 UTC 2013",
+      "machine": "x86_64",
+      "os": "GNU/Linux",
+      "modules": {
+        "veth": {
+          "size": "5040",
+          "refcount": "0"
+        },
+        "ipt_addrtype": {
+          "size": "2153",
+          "refcount": "2"
+        },
+        "xt_conntrack": {
+          "size": "2776",
+          "refcount": "1"
+        },
+        "ipt_MASQUERADE": {
+          "size": "2466",
+          "refcount": "1"
+        },
+        "iptable_nat": {
+          "size": "6158",
+          "refcount": "1"
+        },
+        "nf_nat": {
+          "size": "22759",
+          "refcount": "2"
+        },
+        "bridge": {
+          "size": "83177",
+          "refcount": "0"
+        },
+        "stp": {
+          "size": "2218",
+          "refcount": "1"
+        },
+        "llc": {
+          "size": "5546",
+          "refcount": "2"
+        },
+        "dm_thin_pool": {
+          "size": "39290",
+          "refcount": "2"
+        },
+        "dm_bio_prison": {
+          "size": "6346",
+          "refcount": "1"
+        },
+        "dm_persistent_data": {
+          "size": "44121",
+          "refcount": "1"
+        },
+        "dm_bufio": {
+          "size": "18117",
+          "refcount": "1"
+        },
+        "libcrc32c": {
+          "size": "1246",
+          "refcount": "1"
+        },
+        "ipt_REJECT": {
+          "size": "2351",
+          "refcount": "2"
+        },
+        "nf_conntrack_ipv4": {
+          "size": "9506",
+          "refcount": "6"
+        },
+        "nf_defrag_ipv4": {
+          "size": "1483",
+          "refcount": "1"
+        },
+        "iptable_filter": {
+          "size": "2793",
+          "refcount": "1"
+        },
+        "ip_tables": {
+          "size": "17831",
+          "refcount": "2"
+        },
+        "ip6t_REJECT": {
+          "size": "4628",
+          "refcount": "2"
+        },
+        "nf_conntrack_ipv6": {
+          "size": "8748",
+          "refcount": "2"
+        },
+        "nf_defrag_ipv6": {
+          "size": "11182",
+          "refcount": "1"
+        },
+        "xt_state": {
+          "size": "1492",
+          "refcount": "4"
+        },
+        "nf_conntrack": {
+          "size": "79758",
+          "refcount": "7"
+        },
+        "ip6table_filter": {
+          "size": "2889",
+          "refcount": "1"
+        },
+        "ip6_tables": {
+          "size": "18732",
+          "refcount": "1"
+        },
+        "ipv6": {
+          "size": "317340",
+          "refcount": "43"
+        },
+        "dm_mod": {
+          "size": "84209",
+          "refcount": "8"
+        },
+        "xen_netfront": {
+          "size": "19033",
+          "refcount": "0"
+        },
+        "ext4": {
+          "size": "374902",
+          "refcount": "2"
+        },
+        "jbd2": {
+          "size": "93427",
+          "refcount": "1"
+        },
+        "mbcache": {
+          "size": "8193",
+          "refcount": "1"
+        },
+        "xen_blkfront": {
+          "size": "15495",
+          "refcount": "1"
+        }
+      }
+    },
+    "os": "linux",
+    "os_version": "2.6.32-431.el6.x86_64",
+    "lsb": {
+
+    },
+    "platform": "centos",
+    "platform_version": "6.5",
+    "platform_family": "rhel",
+    "filesystem": {
+      "/dev/xvde": {
+        "kb_size": "8256952",
+        "kb_used": "3586060",
+        "kb_available": "4251464",
+        "percent_used": "46%",
+        "mount": "/",
+        "total_inodes": "524288",
+        "inodes_used": "84635",
+        "inodes_available": "439653",
+        "inodes_percent_used": "17%",
+        "fs_type": "ext4",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "tmpfs": {
+        "kb_size": "302244",
+        "kb_used": "0",
+        "kb_available": "302244",
+        "percent_used": "0%",
+        "mount": "/dev/shm",
+        "total_inodes": "75561",
+        "inodes_used": "1",
+        "inodes_available": "75560",
+        "inodes_percent_used": "1%",
+        "fs_type": "tmpfs",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "proc": {
+        "mount": "/proc",
+        "fs_type": "proc",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "sysfs": {
+        "mount": "/sys",
+        "fs_type": "sysfs",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "devpts": {
+        "mount": "/dev/pts",
+        "fs_type": "devpts",
+        "mount_options": [
+          "rw",
+          "gid=5",
+          "mode=620"
+        ]
+      },
+      "none": {
+        "mount": "/proc/sys/fs/binfmt_misc",
+        "fs_type": "binfmt_misc",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "loop0": {
+        "fs_type": "ext4",
+        "uuid": "8bb5fcf1-fa7d-438a-8e5b-4fd06df11ac4"
+      },
+      "docker-202:64-144880-pool": {
+        "fs_type": "ext4",
+        "uuid": "8bb5fcf1-fa7d-438a-8e5b-4fd06df11ac4"
+      },
+      "docker-202:64-144880-b56e244cc742169b6aa117976347eca0ec490eba763ad4a99b1f4e454d6df38b": {
+        "fs_type": "ext4",
+        "uuid": "8bb5fcf1-fa7d-438a-8e5b-4fd06df11ac4"
+      },
+      "xvde": {
+        "fs_type": "ext4",
+        "uuid": "44d27f92-d3df-4207-80ea-22830afccf03",
+        "label": "centos_root"
+      },
+      "rootfs": {
+        "mount": "/",
+        "fs_type": "rootfs",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "devtmpfs": {
+        "mount": "/dev",
+        "fs_type": "devtmpfs",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "size=291456k",
+          "nr_inodes=72864",
+          "mode=755"
+        ]
+      },
+      "/proc/bus/usb": {
+        "mount": "/proc/bus/usb",
+        "fs_type": "usbfs",
+        "mount_options": [
+          "rw",
+          "relatime"
+        ]
+      },
+      "cgroup": {
+        "mount": "/cgroup/cpuset",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "cpuset"
+        ]
+      },
+      "/dev/mapper/docker-202:64-144880-b56e244cc742169b6aa117976347eca0ec490eba763ad4a99b1f4e454d6df38b": {
+        "mount": "/var/lib/docker/devicemapper/mnt/b56e244cc742169b6aa117976347eca0ec490eba763ad4a99b1f4e454d6df38b",
+        "fs_type": "ext4",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "barrier=1",
+          "stripe=16",
+          "data=ordered",
+          "discard"
+        ]
+      }
+    },
+    "cpu": {
+      "0": {
+        "vendor_id": "GenuineIntel",
+        "family": "6",
+        "model": "45",
+        "model_name": "Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz",
+        "stepping": "7",
+        "mhz": "1799.999",
+        "cache_size": "20480 KB",
+        "flags": [
+          "fpu",
+          "de",
+          "tsc",
+          "msr",
+          "pae",
+          "cx8",
+          "sep",
+          "cmov",
+          "pat",
+          "clflush",
+          "mmx",
+          "fxsr",
+          "sse",
+          "sse2",
+          "ss",
+          "ht",
+          "syscall",
+          "nx",
+          "lm",
+          "up",
+          "rep_good",
+          "unfair_spinlock",
+          "pni",
+          "pclmulqdq",
+          "ssse3",
+          "cx16",
+          "pcid",
+          "sse4_1",
+          "sse4_2",
+          "x2apic",
+          "popcnt",
+          "tsc_deadline_timer",
+          "aes",
+          "hypervisor",
+          "lahf_lm"
+        ]
+      },
+      "total": 1,
+      "real": 0
+    },
+    "uptime_seconds": 5459,
+    "uptime": "1 hours 30 minutes 59 seconds",
+    "idletime_seconds": 10295,
+    "idletime": "2 hours 51 minutes 35 seconds",
+    "memory": {
+      "swap": {
+        "cached": "0kB",
+        "total": "0kB",
+        "free": "0kB"
+      },
+      "total": "604488kB",
+      "free": "14140kB",
+      "buffers": "33220kB",
+      "cached": "369820kB",
+      "active": "254308kB",
+      "inactive": "257208kB",
+      "dirty": "492kB",
+      "writeback": "0kB",
+      "anon_pages": "108460kB",
+      "mapped": "20632kB",
+      "slab": "48912kB",
+      "slab_reclaimable": "26908kB",
+      "slab_unreclaim": "22004kB",
+      "page_tables": "9020kB",
+      "nfs_unstable": "0kB",
+      "bounce": "0kB",
+      "commit_limit": "302244kB",
+      "committed_as": "332924kB",
+      "vmalloc_total": "34359738367kB",
+      "vmalloc_used": "13504kB",
+      "vmalloc_chunk": "34359720104kB"
+    },
+    "network": {
+      "interfaces": {
+        "lo": {
+          "mtu": "16436",
+          "flags": [
+            "LOOPBACK",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Loopback",
+          "addresses": {
+            "127.0.0.1": {
+              "family": "inet",
+              "prefixlen": "8",
+              "netmask": "255.0.0.0",
+              "scope": "Node"
+            },
+            "::1": {
+              "family": "inet6",
+              "prefixlen": "128",
+              "scope": "Node"
+            }
+          },
+          "state": "unknown",
+          "routes": [
+            {
+              "destination": "unreachable",
+              "family": "inet6",
+              "metric": "1024"
+            },
+            {
+              "destination": "unreachable",
+              "family": "inet6",
+              "metric": "1024"
+            },
+            {
+              "destination": "unreachable",
+              "family": "inet6",
+              "metric": "1024"
+            },
+            {
+              "destination": "unreachable",
+              "family": "inet6",
+              "metric": "1024"
+            },
+            {
+              "destination": "unreachable",
+              "family": "inet6",
+              "metric": "1024"
+            },
+            {
+              "destination": "unreachable",
+              "family": "inet6",
+              "metric": "1024"
+            },
+            {
+              "destination": "unreachable",
+              "family": "inet6",
+              "metric": "1024"
+            },
+            {
+              "destination": "unreachable",
+              "family": "inet6",
+              "metric": "1024"
+            },
+            {
+              "destination": "unreachable",
+              "family": "inet6",
+              "metric": "1024"
+            }
+          ]
+        },
+        "eth0": {
+          "type": "eth",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:F0:D5:A7:8E:92": {
+              "family": "lladdr"
+            },
+            "172.31.8.127": {
+              "family": "inet",
+              "prefixlen": "20",
+              "netmask": "255.255.240.0",
+              "broadcast": "172.31.15.255",
+              "scope": "Global"
+            },
+            "fe80::8f0:d5ff:fea7:8e92": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "up",
+          "arp": {
+            "172.31.0.1": "0a:cc:ee:80:33:18",
+            "172.31.0.2": "0a:cc:ee:80:33:18"
+          },
+          "routes": [
+            {
+              "destination": "172.31.0.0/20",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "172.31.8.127"
+            },
+            {
+              "destination": "169.254.0.0/16",
+              "family": "inet",
+              "scope": "link",
+              "metric": "1002"
+            },
+            {
+              "destination": "default",
+              "family": "inet",
+              "via": "172.31.0.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ]
+        },
+        "docker0": {
+          "type": "docker",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "FE:0A:3F:B5:45:1B": {
+              "family": "lladdr"
+            },
+            "172.17.42.1": {
+              "family": "inet",
+              "prefixlen": "16",
+              "netmask": "255.255.0.0",
+              "scope": "Global"
+            },
+            "fe80::58b0:7cff:fe04:3b52": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "unknown",
+          "arp": {
+            "172.17.0.7": "1e:bd:64:de:1d:50"
+          },
+          "routes": [
+            {
+              "destination": "172.17.0.0/16",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "172.17.42.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ]
+        },
+        "veth3YNYXM": {
+          "type": "veth",
+          "number": "3YNYXM",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "FE:0A:3F:B5:45:1B": {
+              "family": "lladdr"
+            },
+            "fe80::fc0a:3fff:feb5:451b": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "up",
+          "routes": [
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ]
+        }
+      },
+      "default_interface": "eth0",
+      "default_gateway": "172.31.0.1"
+    },
+    "counters": {
+      "network": {
+        "interfaces": {
+          "lo": {
+            "rx": {
+              "bytes": "719131",
+              "packets": "4349",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            },
+            "tx": {
+              "bytes": "719131",
+              "packets": "4349",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            }
+          },
+          "eth0": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "4672463",
+              "packets": "66192",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "354282236",
+              "packets": "241541",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "docker0": {
+            "rx": {
+              "bytes": "3434916",
+              "packets": "64690",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            },
+            "tx": {
+              "bytes": "356403738",
+              "packets": "238960",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            }
+          },
+          "veth3YNYXM": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "62891485",
+              "packets": "42195",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "780123",
+              "packets": "11881",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          }
+        }
+      }
+    },
+    "ipaddress": "172.31.8.127",
+    "macaddress": "0A:F0:D5:A7:8E:92",
+    "ip6address": "fe80::8f0:d5ff:fea7:8e92",
+    "chef_packages": {
+      "ohai": {
+        "version": "7.4.0",
+        "ohai_root": "/opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/ohai-7.4.0/lib/ohai"
+      },
+      "chef": {
+        "version": "11.18.0.rc.1",
+        "chef_root": "/opt/chefdk/embedded/apps/chef/lib"
+      }
+    },
+    "ec2": {
+      "ami_id": "ami-34cb7a43",
+      "ami_launch_index": "0",
+      "ami_manifest_path": "(unknown)",
+      "block_device_mapping_ebs1": "sda",
+      "block_device_mapping_root": "/dev/sda1",
+      "hostname": "ip-172-31-8-127.eu-west-1.compute.internal",
+      "instance_action": "none",
+      "instance_id": "i-b0e21856",
+      "instance_type": "t1.micro",
+      "kernel_id": "aki-71665e05",
+      "local_hostname": "ip-172-31-8-127.eu-west-1.compute.internal",
+      "local_ipv4": "172.31.8.127",
+      "mac": "0a:f0:d5:a7:8e:92",
+      "metrics_vhostmd": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "network_interfaces_macs": {
+        "0a:f0:d5:a7:8e:92": {
+          "device_number": "0",
+          "interface_id": "eni-6290b03b",
+          "ipv4-associations": {
+            "54.154.64.231": "172.31.8.127"
+          },
+          "local_hostname": "ip-172-31-8-127.eu-west-1.compute.internal",
+          "local_ipv4s": "172.31.8.127",
+          "mac": "0a:f0:d5:a7:8e:92",
+          "owner_id": "862552916454",
+          "public_hostname": "ec2-54-154-64-231.eu-west-1.compute.amazonaws.com",
+          "public_ipv4s": "54.154.64.231",
+          "security_group_ids": "sg-be0a89db\nsg-64f37101",
+          "security_groups": "jhnftzptrck-eu\nChefDKWorkstation",
+          "subnet_id": "subnet-185d635e",
+          "subnet_ipv4_cidr_block": "172.31.0.0/20",
+          "vpc_id": "vpc-61866504",
+          "vpc_ipv4_cidr_block": "172.31.0.0/16"
+        }
+      },
+      "placement_availability_zone": "eu-west-1a",
+      "product_codes": "eggbgx9svw4xhzs1omttdv29q",
+      "profile": "default-paravirtual",
+      "public_hostname": "ec2-54-154-64-231.eu-west-1.compute.amazonaws.com",
+      "public_ipv4": "54.154.64.231",
+      "public_keys_0_openssh_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQOhylUw3zxqw87lM94s1wUveOBMPfMUkEtbYbMPgiLkpzIDND2LPzbItwP7n2Y+KsQoNtNgMScORuxi+auRSAc44Kg/BEEsFqL95EjDv4/Dg9d5pRYv5T97acThvZcbdmWroxn8UlFzXt5+0vA9WFvqHTWd58M8/jlOG9Swfvi3bZoh5S4gVRTWnXA/yrf8pec8IUXuBa8Yr2Lyt+6Qv0Wiqk+nvJutdlYCYtj74ZBXZxZQqUhiIweBfHMuQw33gJMMc+UJ9dTden2C13/q8S1bmS+AB+eoJnCFIfuKeg02806M+ssMgNae4V1Par3Xo8Jd9Euot8gLjIN80a2ClT amanly\n",
+      "reservation_id": "r-02785d40",
+      "security_groups": [
+        "jhnftzptrck-eu",
+        "ChefDKWorkstation"
+      ],
+      "userdata": null
+    },
+    "cloud": {
+      "public_ips": [
+        "54.154.64.231"
+      ],
+      "private_ips": [
+        "172.31.8.127"
+      ],
+      "public_ipv4": "54.154.64.231",
+      "public_hostname": "ec2-54-154-64-231.eu-west-1.compute.amazonaws.com",
+      "local_ipv4": "172.31.8.127",
+      "local_hostname": "ip-172-31-8-127.eu-west-1.compute.internal",
+      "provider": "ec2"
+    },
+    "virtualization": {
+      "systems": {
+        "xen": "guest"
+      },
+      "system": "xen",
+      "role": "guest"
+    },
+    "block_device": {
+      "ram0": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram1": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram2": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram3": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram4": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram5": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram6": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram7": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram8": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram9": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram10": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram11": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram12": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram13": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram14": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "ram15": {
+        "size": "32768",
+        "removable": "0"
+      },
+      "loop0": {
+        "size": "209715200",
+        "removable": "0"
+      },
+      "loop1": {
+        "size": "4194304",
+        "removable": "0"
+      },
+      "loop2": {
+        "size": "0",
+        "removable": "0"
+      },
+      "loop3": {
+        "size": "0",
+        "removable": "0"
+      },
+      "loop4": {
+        "size": "0",
+        "removable": "0"
+      },
+      "loop5": {
+        "size": "0",
+        "removable": "0"
+      },
+      "loop6": {
+        "size": "0",
+        "removable": "0"
+      },
+      "loop7": {
+        "size": "0",
+        "removable": "0"
+      },
+      "xvde": {
+        "size": "16777216",
+        "removable": "0"
+      },
+      "dm-0": {
+        "size": "209715200",
+        "removable": "0"
+      },
+      "dm-1": {
+        "size": "20971520",
+        "removable": "0"
+      }
+    },
+    "ohai_time": 1418208388.9007597,
+    "cloud_v2": {
+      "public_ipv4_addrs": [
+        "54.154.64.231"
+      ],
+      "local_ipv4_addrs": [
+        "172.31.8.127"
+      ],
+      "provider": "ec2",
+      "public_hostname": "ec2-54-154-64-231.eu-west-1.compute.amazonaws.com",
+      "local_hostname": "ip-172-31-8-127.eu-west-1.compute.internal",
+      "public_ipv4": "54.154.64.231",
+      "local_ipv4": "172.31.8.127"
+    },
+    "root_group": "root",
+    "etc": {
+      "passwd": {
+        "root": {
+          "dir": "/root",
+          "gid": 0,
+          "uid": 0,
+          "shell": "/bin/bash",
+          "gecos": "root"
+        },
+        "bin": {
+          "dir": "/bin",
+          "gid": 1,
+          "uid": 1,
+          "shell": "/sbin/nologin",
+          "gecos": "bin"
+        },
+        "daemon": {
+          "dir": "/sbin",
+          "gid": 2,
+          "uid": 2,
+          "shell": "/sbin/nologin",
+          "gecos": "daemon"
+        },
+        "adm": {
+          "dir": "/var/adm",
+          "gid": 4,
+          "uid": 3,
+          "shell": "/sbin/nologin",
+          "gecos": "adm"
+        },
+        "lp": {
+          "dir": "/var/spool/lpd",
+          "gid": 7,
+          "uid": 4,
+          "shell": "/sbin/nologin",
+          "gecos": "lp"
+        },
+        "sync": {
+          "dir": "/sbin",
+          "gid": 0,
+          "uid": 5,
+          "shell": "/bin/sync",
+          "gecos": "sync"
+        },
+        "shutdown": {
+          "dir": "/sbin",
+          "gid": 0,
+          "uid": 6,
+          "shell": "/sbin/shutdown",
+          "gecos": "shutdown"
+        },
+        "halt": {
+          "dir": "/sbin",
+          "gid": 0,
+          "uid": 7,
+          "shell": "/sbin/halt",
+          "gecos": "halt"
+        },
+        "mail": {
+          "dir": "/var/spool/mail",
+          "gid": 12,
+          "uid": 8,
+          "shell": "/sbin/nologin",
+          "gecos": "mail"
+        },
+        "uucp": {
+          "dir": "/var/spool/uucp",
+          "gid": 14,
+          "uid": 10,
+          "shell": "/sbin/nologin",
+          "gecos": "uucp"
+        },
+        "operator": {
+          "dir": "/root",
+          "gid": 0,
+          "uid": 11,
+          "shell": "/sbin/nologin",
+          "gecos": "operator"
+        },
+        "games": {
+          "dir": "/usr/games",
+          "gid": 100,
+          "uid": 12,
+          "shell": "/sbin/nologin",
+          "gecos": "games"
+        },
+        "gopher": {
+          "dir": "/var/gopher",
+          "gid": 30,
+          "uid": 13,
+          "shell": "/sbin/nologin",
+          "gecos": "gopher"
+        },
+        "ftp": {
+          "dir": "/var/ftp",
+          "gid": 50,
+          "uid": 14,
+          "shell": "/sbin/nologin",
+          "gecos": "FTP User"
+        },
+        "nobody": {
+          "dir": "/",
+          "gid": 99,
+          "uid": 99,
+          "shell": "/sbin/nologin",
+          "gecos": "Nobody"
+        },
+        "vcsa": {
+          "dir": "/dev",
+          "gid": 69,
+          "uid": 69,
+          "shell": "/sbin/nologin",
+          "gecos": "virtual console memory owner"
+        },
+        "saslauth": {
+          "dir": "/var/empty/saslauth",
+          "gid": 76,
+          "uid": 499,
+          "shell": "/sbin/nologin",
+          "gecos": "\"Saslauthd user\""
+        },
+        "postfix": {
+          "dir": "/var/spool/postfix",
+          "gid": 89,
+          "uid": 89,
+          "shell": "/sbin/nologin",
+          "gecos": ""
+        },
+        "sshd": {
+          "dir": "/var/empty/sshd",
+          "gid": 74,
+          "uid": 74,
+          "shell": "/sbin/nologin",
+          "gecos": "Privilege-separated SSH"
+        },
+        "chef": {
+          "dir": "/home/chef",
+          "gid": 2000,
+          "uid": 2000,
+          "shell": "/bin/bash",
+          "gecos": "Chef <training@getchef.com>"
+        },
+        "apache": {
+          "dir": "/var/www",
+          "gid": 48,
+          "uid": 48,
+          "shell": "/sbin/nologin",
+          "gecos": "Apache"
+        }
+      },
+      "group": {
+        "root": {
+          "gid": 0,
+          "members": [
+
+          ]
+        },
+        "bin": {
+          "gid": 1,
+          "members": [
+            "bin",
+            "daemon"
+          ]
+        },
+        "daemon": {
+          "gid": 2,
+          "members": [
+            "bin",
+            "daemon"
+          ]
+        },
+        "sys": {
+          "gid": 3,
+          "members": [
+            "bin",
+            "adm"
+          ]
+        },
+        "adm": {
+          "gid": 4,
+          "members": [
+            "adm",
+            "daemon"
+          ]
+        },
+        "tty": {
+          "gid": 5,
+          "members": [
+
+          ]
+        },
+        "disk": {
+          "gid": 6,
+          "members": [
+
+          ]
+        },
+        "lp": {
+          "gid": 7,
+          "members": [
+            "daemon"
+          ]
+        },
+        "mem": {
+          "gid": 8,
+          "members": [
+
+          ]
+        },
+        "kmem": {
+          "gid": 9,
+          "members": [
+
+          ]
+        },
+        "wheel": {
+          "gid": 10,
+          "members": [
+
+          ]
+        },
+        "mail": {
+          "gid": 12,
+          "members": [
+            "mail",
+            "postfix"
+          ]
+        },
+        "uucp": {
+          "gid": 14,
+          "members": [
+
+          ]
+        },
+        "man": {
+          "gid": 15,
+          "members": [
+
+          ]
+        },
+        "games": {
+          "gid": 20,
+          "members": [
+
+          ]
+        },
+        "gopher": {
+          "gid": 30,
+          "members": [
+
+          ]
+        },
+        "video": {
+          "gid": 39,
+          "members": [
+
+          ]
+        },
+        "dip": {
+          "gid": 40,
+          "members": [
+
+          ]
+        },
+        "ftp": {
+          "gid": 50,
+          "members": [
+
+          ]
+        },
+        "lock": {
+          "gid": 54,
+          "members": [
+
+          ]
+        },
+        "audio": {
+          "gid": 63,
+          "members": [
+
+          ]
+        },
+        "nobody": {
+          "gid": 99,
+          "members": [
+
+          ]
+        },
+        "users": {
+          "gid": 100,
+          "members": [
+
+          ]
+        },
+        "floppy": {
+          "gid": 19,
+          "members": [
+
+          ]
+        },
+        "vcsa": {
+          "gid": 69,
+          "members": [
+
+          ]
+        },
+        "utmp": {
+          "gid": 22,
+          "members": [
+
+          ]
+        },
+        "utempter": {
+          "gid": 35,
+          "members": [
+
+          ]
+        },
+        "cdrom": {
+          "gid": 11,
+          "members": [
+
+          ]
+        },
+        "tape": {
+          "gid": 33,
+          "members": [
+
+          ]
+        },
+        "dialout": {
+          "gid": 18,
+          "members": [
+
+          ]
+        },
+        "saslauth": {
+          "gid": 76,
+          "members": [
+
+          ]
+        },
+        "postdrop": {
+          "gid": 90,
+          "members": [
+
+          ]
+        },
+        "postfix": {
+          "gid": 89,
+          "members": [
+
+          ]
+        },
+        "sshd": {
+          "gid": 74,
+          "members": [
+
+          ]
+        },
+        "chef": {
+          "gid": 2000,
+          "members": [
+
+          ]
+        },
+        "cgred": {
+          "gid": 499,
+          "members": [
+
+          ]
+        },
+        "docker": {
+          "gid": 498,
+          "members": [
+
+          ]
+        },
+        "apache": {
+          "gid": 48,
+          "members": [
+
+          ]
+        }
+      }
+    },
+    "current_user": "chef",
+    "command": {
+      "ps": "ps -ef"
+    },
+    "keys": {
+      "ssh": {
+        "host_dsa_public": "AAAAB3NzaC1kc3MAAACBANit6Wqv7icjdRLe7vP9QfpuLpDyCILnffQKNehX2H9yJKGsRcx6z4CoaWcDwxWg9BfoyzTits0tap3dB+wwd/NqF8FpFHswtY2LtijbKpNBqG4YBKh3kHx5M9wL3E/TKkvOKRhGlYM1kFvESKu6jV99V0FGkGp1njA2Zusc4guPAAAAFQCm/DAVJf4eg16URz254uLf/bOaOQAAAIB1qtu5d4eNi7E3Q1OojVZP9dz5ZVc6FJmMOerbTsn5cwSQc/mAb5gUQOBU7PK5/gnDu9oPsN8A8rJF89fb7JWOXlcU/lJJIt3qNDqy1CsHT7QLT0K96ZheCEN2uOc7uMJIPRWzSnrnqoIoh3g8AvLAXdeD8BAzCjCKH1oAeuSKugAAAIBl21b2e/ZdKvgUAWtWlvwbm1ZgKP8Q6Lb0n+FGAyfbkvkTn1R49aesbieD41b46T1Bqp3Sgy19k19i47GvKWh9r7J6TyuUmxDDVA+MxRULeyAHeA6X0ck9BNuDSPz2vnQMTD2Q5Joi+sIs/5cpQ8CBFMs/xsmXHrxHvY4IkmcxFQ==",
+        "host_rsa_public": "AAAAB3NzaC1yc2EAAAABIwAAAQEAuXlX4zIefmqQJKLnkt3JWSzywmFP64HN3b0y1rSHDtuQXtwaDoyvugrClBEKt8XBoab2fE3Sf2jqaf8SWGA8tCWPcXAnWnWQFC/wu9EvFcH67iFSxN8k9uruKBMADgIW1DvV3G4xzO6rn4p7N/cGDcL+qTU9CVyK4toGtvm62yAPadWel65jS0CtRyEv8WEOsVtEFq2kdKUsIfpKzT3ki5Yq2veQNghyiAFqQj2ow2LxwtU6mYCCQk5JlhU0lQzBbFgX8xpikeIfgprJXJ55kIqtFqjotTJ6ANkgM6g7dJ5xK9taFvj69u7/Km1dOejme46kdcJ8zSTLVJ73VCOhfQ=="
+      }
+    },
+    "init_package": "init",
+    "hostname": "ip-172-31-8-127",
+    "machinename": "ip-172-31-8-127",
+    "fqdn": "ip-172-31-8-127.eu-west-1.compute.internal",
+    "domain": "eu-west-1.compute.internal",
+    "recipes": [
+      "myapache::default"
+    ],
+    "roles": [
+
+    ]
+  },
+  "run_list": [
+    "recipe[myapache::default]"
+  ]
+}

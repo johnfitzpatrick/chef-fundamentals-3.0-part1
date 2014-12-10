@@ -1,0 +1,8 @@
+<html>
+  <body>
+    <h1>Hello, <%= node["myapache"]["greeting"] %></h1>
+    <h2>Chef Fundamentals <%= @site_name %> website</h2>
+    <%= node["ipaddress"] %>:<%= @port %>
+  </body>
+</html>
+
