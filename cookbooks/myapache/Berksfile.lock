@@ -1,0 +1,7 @@
+DEPENDENCIES
+  myapache
+    path: .
+    metadata: true
+
+GRAPH
+  myapache (0.1.0)

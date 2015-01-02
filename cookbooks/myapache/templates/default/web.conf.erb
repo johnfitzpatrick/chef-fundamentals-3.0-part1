@@ -1,0 +1,20 @@
+<% if @port != node["myapache"]["port"] %>
+  Listen <%= @port %> 
+<% end %>
+
+<VirtualHost *:<%= @port %>>
+  ServerAdmin webmaster@localhost
+
+  DocumentRoot /var/www/html/web0<%= @web_server_id %>
+  <Directory />
+    Options FollowSymLinks
+    AllowOverride None
+  </Directory>
+  <Directory /var/www/html/web0<%= @web_server_id %>>
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride None
+    Order allow,deny
+    allow from all
+  </Directory>
+</VirtualHost>
+

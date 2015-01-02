@@ -1,0 +1,18 @@
+Listen 8081
+
+<VirtualHost *:8081>
+  ServerAdmin webmaster@localhost
+
+  DocumentRoot /var/www/html/web02
+  <Directory />
+    Options FollowSymLinks
+    AllowOverride None
+  </Directory>
+  <Directory /var/www/html/web02>
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride None
+    Order allow,deny
+    allow from all
+  </Directory>
+</VirtualHost>
+
